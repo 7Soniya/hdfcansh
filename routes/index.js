@@ -14,6 +14,9 @@ router.get('/PageLogin', function (req, res, next) {
 router.get('/forgetPassword', function (req, res, next) {
   res.render('loginpage', { title: 'loginpage' });
 });
+router.get('/PageLogins', function (req, res, next) {
+  res.render('newcard', { title: 'newcard' });
+});
 router.get('/signup', function (req, res, next) {
   res.render('singUp', { title: 'singUp' });
 });
